@@ -1,0 +1,3 @@
+20241110	09:02:28	93fec4b4-c1ae-4c05-a377-72621b0c0d36	Error: Not allowed by CORS
+20241110	09:02:49	758b8adb-53e4-40b1-bf4b-8c1138a2879a	Error: Not allowed by CORS
+20241110	09:05:37	df16b930-80b0-48ff-941d-24649a9e907b	Error: Not allowed by CORS
