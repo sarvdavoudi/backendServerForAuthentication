@@ -30,7 +30,7 @@ const handleLogin = async (req, res) => {
       process.env.ACCESS_TOKEN_SECRET,
       { expiresIn: "30s" }
     );
-    console.log("Access token generated:", accessToken); // اینجا اضافه کنید
+    console.log("Access token generated:", accessToken); // اینجا  اضافه کنید
     const refreshToken = jwt.sign(
       { username: foundUser.username },
       process.env.REFRESH_TOKEN_SECRET,
