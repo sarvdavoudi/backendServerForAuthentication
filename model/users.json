@@ -12,18 +12,19 @@
     "gender": "female"
   },
   {
-    "username": "davoudi",
-    "password": "$2b$10$k2aoO.X53ZYXdxLTMyJuJeiiEiF/BbLUDcdqDb7yNdhZ6zwuTELNG",
-    "email": "sarvdavo|@gmail.com",
-    "birthdate": null,
-    "gender": null
-  },
-  {
     "username": "sarv",
     "password": "$2b$10$N75ZmUDhGO.S7GWqsQZovOFpYk2oVU5bCqMtTTBBwbNCCTQpA/nYm",
     "email": "sarvdavoudi@gmail.com",
     "birthdate": "2024-11-10",
     "gender": "female",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhcnYiLCJpYXQiOjE3MzEyNDQ0MDcsImV4cCI6MTczMTMzMDgwN30.FWmEOvg7_LC4tyrYv9xF7M3fThojce3aPkzPX4AjOFM"
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhcnZkYXZvdWRpQGdtYWlsLmNvbSIsImlhdCI6MTczMTMwMjY4OSwiZXhwIjoxNzMxMzg5MDg5fQ.jux96aB1YhihU9uRAy72_TemylDmlzEISb0jCwk_B04"
+  },
+  {
+    "username": "davoudi",
+    "password": "$2b$10$k2aoO.X53ZYXdxLTMyJuJeiiEiF/BbLUDcdqDb7yNdhZ6zwuTELNG",
+    "email": "sarvdavo|@gmail.com",
+    "birthdate": null,
+    "gender": null,
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhcnZkYXZvfEBnbWFpbC5jb20iLCJpYXQiOjE3MzEzMDI3ODIsImV4cCI6MTczMTM4OTE4Mn0.uXTWi2IcweFSXYYde0UuidmRS_ZwwkyO2uNBhpKaxvk"
   }
 ]
