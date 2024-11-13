@@ -68,6 +68,7 @@ const handleLogin = async (req, res) => {
     console.log(
       "Sending access token that include role and userName to client"
     );
+    // send accessToken to front-end
     res.json({
       accessToken,
     });

@@ -250,3 +250,5 @@
 20241113	10:59:08	d56c8c07-d440-459e-9c4a-bf5ca06cce3f	POST	http://localhost:3000	/auth
 20241113	11:00:31	4b48ddcb-a459-449e-a038-e4fa7f0cb370	OPTIONS	http://localhost:3000	/auth
 20241113	11:00:31	fc570ad7-6678-4cea-a64c-01cfbfd02db4	POST	http://localhost:3000	/auth
+20241113	11:20:47	12441ee2-a0d3-4fd1-aa17-39eac8bf7ce9	OPTIONS	http://localhost:3000	/auth
+20241113	11:20:47	d2dccceb-9a02-4e5d-be68-f0fc13059548	POST	http://localhost:3000	/auth

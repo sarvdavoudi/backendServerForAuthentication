@@ -15,6 +15,6 @@
     "birthdate": null,
     "gender": null,
     "role": "base-role",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhcmFAZ21haWwuY29tIiwicm9sZSI6ImJhc2Utcm9sZSIsImlhdCI6MTczMTQ4MzAzMSwiZXhwIjoxNzMxNTY5NDMxfQ.qNxpY5eRDnEv3BgB2s8yNpiWe5pmajN6Tb_h_XMZc_4"
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhcmFAZ21haWwuY29tIiwicm9sZSI6ImJhc2Utcm9sZSIsImlhdCI6MTczMTQ4NDI0OCwiZXhwIjoxNzMxNTcwNjQ4fQ.KKlodE9zinzizptnGfhrnofvypq9FLYield6zvALCyc"
   }
 ]
