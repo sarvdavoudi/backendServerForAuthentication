@@ -12,7 +12,7 @@ const fsPromises = require("fs").promises;
 const path = require("path");
 
 const handleLogin = async (req, res) => {
-  const { email, password } = req.body; 
+  const { email, password } = req.body;
   console.log("Received data:", req.body);
   if (!email || !password)
     return res
@@ -28,16 +28,24 @@ const handleLogin = async (req, res) => {
   console.log("User found:", foundUser);
 
   if (match) {
-    // create JWT roken 
+    // create JWT roken
     const accessToken = jwt.sign(
-      { email: foundUser.email, role: foundUser.role }, 
+      {
+        email: foundUser.email,
+        role: foundUser.role,
+        username: foundUser.username,
+      },
       process.env.ACCESS_TOKEN_SECRET,
       { expiresIn: "30s" }
     );
     console.log("Access token generated:", accessToken);
     // create refreshToken
     const refreshToken = jwt.sign(
-      { email: foundUser.email },
+      {
+        email: foundUser.email,
+        username: foundUser.username,
+        role: foundUser.role,
+      },
       process.env.REFRESH_TOKEN_SECRET,
       { expiresIn: "1d" }
     );
@@ -57,8 +65,12 @@ const handleLogin = async (req, res) => {
       secure: true,
       maxAge: 24 * 60 * 60 * 1000,
     });
-    console.log("Sending access token and role to client");
-    res.json({ accessToken,role: foundUser.role });
+    console.log(
+      "Sending access token that include role and userName to client"
+    );
+    res.json({
+      accessToken,
+    });
   } else {
     res.sendStatus(401);
   }

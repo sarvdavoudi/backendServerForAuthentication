@@ -1,1 +1,20 @@
-[{"username":"sara","password":"$2b$10$2mWLomhRWwLdWxmhyAMe1eXmcxCmalKdqGoHW3BuD2no9QHA.38yu","email":"sara@gmail.com","birthdate":null,"gender":null,"role":"base-role","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhcmFAZ21haWwuY29tIiwiaWF0IjoxNzMxNDc3Nzg1LCJleHAiOjE3MzE1NjQxODV9.hstMi7YRlKhO-XkOfygoD5p7gdJTzK5jpADqvwO7ogA"}]
+[
+  {
+    "username": "admin",
+    "password": "$2b$10$YxpM2hWgDJkUellC/arqj.oczXYQzUhREsNIEkXDrzrPx0RojENX2",
+    "email": "admin@gmail.com",
+    "birthdate": null,
+    "gender": null,
+    "role": "admin",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTczMTQ3OTIzNSwiZXhwIjoxNzMxNTY1NjM1fQ.L3ARCUNBzfNFfITMw1q30GvktuQ6ze3yRQWQIWtuBb0"
+  },
+  {
+    "username": "sara",
+    "password": "$2b$10$2mWLomhRWwLdWxmhyAMe1eXmcxCmalKdqGoHW3BuD2no9QHA.38yu",
+    "email": "sara@gmail.com",
+    "birthdate": null,
+    "gender": null,
+    "role": "base-role",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhcmFAZ21haWwuY29tIiwicm9sZSI6ImJhc2Utcm9sZSIsImlhdCI6MTczMTQ4MzAzMSwiZXhwIjoxNzMxNTY5NDMxfQ.qNxpY5eRDnEv3BgB2s8yNpiWe5pmajN6Tb_h_XMZc_4"
+  }
+]
