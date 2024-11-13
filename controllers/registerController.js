@@ -30,6 +30,7 @@ const handleNewUser = async (req, res) => {
         email,
         birthdate: birthdate || null,
         gender: gender || null,
+        role:"base-role" //add default role from back-end
       };
       
 
